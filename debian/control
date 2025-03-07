@@ -1,0 +1,12 @@
+Source: ros-jazzy-gz-launch-vendor
+Section: misc
+Priority: optional
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), binutils-dev, cmake, libgflags-dev, libtinyxml2-dev, libwebsockets-dev, libxi-dev, libxmu-dev, libyaml-dev, ros-jazzy-ament-cmake-copyright <!nocheck>, ros-jazzy-ament-cmake-core, ros-jazzy-ament-cmake-lint-cmake <!nocheck>, ros-jazzy-ament-cmake-test, ros-jazzy-ament-cmake-vendor-package, ros-jazzy-ament-cmake-xmllint <!nocheck>, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-common-vendor, ros-jazzy-gz-gui-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-plugin-vendor, ros-jazzy-gz-sim-vendor, ros-jazzy-gz-tools-vendor, ros-jazzy-gz-transport-vendor, uuid-dev, xvfb <!nocheck>, ros-jazzy-ros-workspace
+Homepage: https://github.com/gazebosim/gz-launch
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-gz-launch-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, binutils-dev, libgflags-dev, libtinyxml2-dev, libwebsockets-dev, libxi-dev, libxmu-dev, libyaml-dev, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-common-vendor, ros-jazzy-gz-gui-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-plugin-vendor, ros-jazzy-gz-sim-vendor, ros-jazzy-gz-tools-vendor, ros-jazzy-gz-transport-vendor, uuid-dev, ros-jazzy-ros-workspace
+Description: Vendor package for: gz-launch7 7.1.1 Gazebo Launch : Run and manage programs and plugins
