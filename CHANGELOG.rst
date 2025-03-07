@@ -2,6 +2,11 @@
 Changelog for package gz_launch_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.5 (2025-02-19)
+------------------
+* Bump version to 7.1.1 (`#4 <https://github.com/gazebo-release/gz_launch_vendor/issues/4>`_)
+* Contributors: Addisu Z. Taddese
+
 0.0.4 (2024-07-15)
 ------------------
 * Update vendored package version to 7.1.0
